@@ -48,7 +48,7 @@ for l in finalvec:
         s = 1
     elif s < 0:
         s = 0
-    elif s = 0:
+    elif s == 0:
         continue
     decode1.append(s)
 print decode1
@@ -59,7 +59,7 @@ for l in finalvec:
         s = 1
     elif s < 0:
         s = 0
-    elif s = 0:
+    elif s == 0:
         continue
     decode2.append(s)
 print decode2
